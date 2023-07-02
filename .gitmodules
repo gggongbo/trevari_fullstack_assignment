@@ -1,0 +1,8 @@
+[submodule "backend"]
+	path = packages/backend/nest-app
+	url = git@github.com:gggongbo/backend_trevari_fullstack_assignment.git
+
+[submodule "frontend"]
+	path = packages/frontend/next-app
+	url = git@github.com:gggongbo/frontend_trevari_fullstack_assignment.git
+
