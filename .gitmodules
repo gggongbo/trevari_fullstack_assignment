@@ -1,6 +1,6 @@
-[submodule "packages/frontend/next-app"]
-	path = packages/frontend/next-app
-	url = git@github.com:gggongbo/next-app.git
-[submodule "packages/backend/nest-app"]
-	path = packages/backend/nest-app
+[submodule "backend"]
+	path = backend
 	url = git@github.com:gggongbo/nest-app.git
+[submodule "frontend"]
+	path = frontend
+	url = git@github.com:gggongbo/next-app.git

@@ -1,0 +1,15 @@
+{
+  "name": "domain",
+  "packageManager": "yarn@3.6.1",
+  "private": true,
+  "main": "dist/index",
+  "types": "dist/index",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "yarn clean && yarn compile",
+    "clean": "rm -rf ./dist",
+    "compile": "tsc"
+  }
+}
