@@ -3,11 +3,14 @@
   "packageManager": "yarn@3.6.1",
   "private": true,
   "workspaces": [
-    "packages/*/*"
+    "frontend",
+    "backend",
+    "domain"
   ],
   "scripts": {
     "next": "yarn workspace next-app",
     "nest": "yarn workspace nest-app",
+    "domain": "yarn workspace domain",
     "build": "yarn workspace next-app build && yarn workspace nest-app build ",
     "prepare": "husky install"
   },
