@@ -14,7 +14,6 @@ import { BookDTO, IBookDTO } from './dtos';
  */
 export const getBook = (params: IBook) => {
   if (!params) throw new Error('[domain] empty params');
-  console.log('hello domain', Book);
   return new Book(params);
 };
 
@@ -22,15 +21,14 @@ export const getBook = (params: IBook) => {
  getBookDTO
 
  @example
- getBook({title:'test', subtitle:'test', image:'test})
+ getBookDTO({title:'test', subtitle:'test', image:'test})
  @param {IBookDTO} params
  @property {string} params.title
  @property {string} params.subtitle
  @property {string} params.image
- @returns {BookDTO} Book
+ @returns {BookDTO} BookDTO
  */
 export const getBookDTO = (params: IBookDTO) => {
   if (!params) throw new Error('[domain] empty params');
-  console.log('hello domain dto', BookDTO);
   return new BookDTO(params);
 };
